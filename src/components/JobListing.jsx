@@ -36,7 +36,7 @@ const JobListing = ({ job }) => {
                 </div>
                 <Link
                 // this is the link to be added to the address bar
-                  to={`/job/${job.id}`}
+                  to={`/jobs/${job.id}`}
                   className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                  Read More
